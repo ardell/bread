@@ -234,3 +234,20 @@
         }
     }
 }
+
+/*** Table styles ***/
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  text-align: left;
+}
+td, th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
